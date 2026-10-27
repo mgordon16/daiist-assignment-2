@@ -29,5 +29,6 @@
   "single_threshold": 0.31,
   "low_threshold": 0.0,
   "high_threshold": 0.74,
-  "c_fn_break_even": 1.53
+  "c_fn_break_even": 1.53,
+  "box_confusion_threshold": 0.31
 }
