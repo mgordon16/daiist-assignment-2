@@ -1,0 +1,5 @@
+scenario,cost_per_1000,FN_per_day,FP_per_day,reviews_per_day,people,cost_per_day,cost_per_year_250d
+Do nothing,1190.0,50.4,0.0,0.0,0.0,856.8,214200.0
+Person checks everything,154.48,1.01,0.0,720.0,0.25,111.22,27806.0
+Model alone (threshold 0.310),219.69,4.32,14.2,0.0,0.0,158.18,39544.03
+Model + human review (0.00 / 0.74),143.28,0.23,4.73,676.39,0.23,103.17,25791.28

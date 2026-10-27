@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 5
+  },
+  "train_settings": {
+    "model": "yolo11n.pt",
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 32,
+    "patience": 15,
+    "seed": 0
+  },
+  "positive_class": "head",
+  "assumptions": {
+    "C_FN": 17.0,
+    "C_FP": 1.1,
+    "C_TP": 1.5,
+    "C_TN": 0.0,
+    "BASE_RATE": 0.07,
+    "CASES_PER_DAY": 720,
+    "REVIEW_SECONDS": 10,
+    "REVIEWER_EUR_PER_HOUR": 10.0,
+    "HOURS_PER_SHIFT": 8,
+    "MAX_REVIEWERS": 1.0,
+    "REVIEWER_MISS_RATE": 0.02
+  },
+  "single_threshold": 0.31,
+  "low_threshold": 0.0,
+  "high_threshold": 0.74,
+  "c_fn_break_even": 1.53
+}

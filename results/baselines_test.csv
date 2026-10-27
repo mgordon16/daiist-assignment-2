@@ -1,0 +1,4 @@
+approach,AP50_head_box,mAP50-95_head_box,TP,FP,FN,TN,precision,recall,accuracy,AP_photo,ROC_AUC_photo,min_cost_per_1000
+Trivial: never alert,0.0,0.0,0,0,140,566,,0.0,0.802,0.198,0.5,1190.0
+COCO yolo11n zero-shot (alert on 'person'),0.0,0.0,140,552,0,14,0.202,1.0,0.218,0.291,0.677,854.723
+Finetuned yolo11n ('head'),0.967,0.674,128,13,12,553,0.908,0.914,0.965,0.931,0.968,219.689

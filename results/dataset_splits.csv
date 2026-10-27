@@ -1,0 +1,4 @@
+split,images,instances_head,images_with_head,pct_images_with_head,instances_helmet,images_with_helmet,pct_images_with_helmet
+train,4916,4612,911,18.5,13919,4503,91.6
+valid,1413,1339,256,18.1,3913,1297,91.8
+test,706,726,140,19.8,1915,636,90.1
